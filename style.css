@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: black;
+}
+.main {
+  background-image: url(Images/bgn.jpg);
+  height: 600px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+}
+.main .shadow {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+.navbar {
+  width: 80vw;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  z-index: 10;
+  color: rgb(240, 16, 16);
+  position: relative;
+}
+.navbar #logo {
+  position: relative;
+  width: 9rem;
+  height: 5rem;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#language-select {
+  width: 95px;
+  height: 35px;
+  background-color: rgba(23, 23, 23, 0.10);
+  color: #fff;
+  cursor: pointer;
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#language-select option {
+  background: transparent;
+  background-color: rgba(23, 23, 23, 0.6);
+  outline: none;
+}
+ option:active, :focus {
+  outline: 1.5px solid white;
+  border: 2px solid white;
+ }
+.navbar button {
+  width: 90px;
+  height: 35px;
+  background-color: rgb(230, 10, 20);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.navbar button:hover {
+  cursor: pointer;
+  background: rgb(197, 6, 6);
+}
+.navbar button:focus, :active{
+  border: none;
+  outline: none;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Martel";
+  flex-direction: column;
+  color: #ffffff;
+  position: relative;
+  height: calc(100% - 100px);
+  overflow: hidden;
+}
+.text :nth-child(1) {
+  font-size: 35px;
+  font-weight: 900;
+}
+.text :nth-child(2) {
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: 400;
+}
+.text :nth-child(3) {
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 300;
+}
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 60vw;
+  margin-top: 10px;
+  margin: 10px;
+}
+.text .start input {
+  background: rgba(23, 23, 23, 0.6);
+  padding: 1.5rem 1rem 0.5rem;
+  min-width: 300px;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 400px;
+  width: 50vw;
+  font-weight: 100;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid white;
+  animation: animation-14hycbg;
+  color: #ffffff;
+}
+.text .start input:focus {
+  border: 1.5px solid white;
+  outline: 1.5px solid white;
+  background: rgba(4, 1, 19, 0.466);
+  line-height: 1.5;
+  font-weight: 500;
+}
+.text .start input::placeholder {
+  color: #fffbfb;
+}
+.text .start button {
+  padding: 1.1rem 1rem 1.1rem;
+  color: #fff;
+  background-color: rgb(230, 10, 20);
+  border-radius: 5px;
+  height: 55px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  max-width: 180px;
+  width: 90vw;
+}
+.text .start button:hover {
+  background: rgb(197, 6, 6);
+}
+.separation {
+  width: 100%;
+  height: 0.5rem;
+  background-color: rgb(41, 41, 41);
+  position: relative;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 60px;
+  text-overflow: clip;
+}
+.images {
+  position: relative;
+  right: 0;
+}
+.first .images img {
+  width: 510px;
+  position: relative;
+  z-index: 10;
+}
+.first .images video {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 450px;
+}
+.first .tex {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.first .tex :nth-child(1) {
+  font-size: 35px;
+  font-weight: 900;
+}
+.first .tex :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+}
+.third .tex {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+section.first > div :nth-child(1) {
+  font-size: px;
+  font-weight: bolder;
+}
+
+section.first > div :nth-child(2) {
+  font-size: 24px;
+}
+ h2 {
+ 
+}
+#f{
+  font-size: 40px;
+}
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+}
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 80vw;
+  margin: 34px auto;
+  cursor: pointer;
+}
+.text #ftr {
+  font-size: 19px;
+  padding-top: 10px;
+  font-weight: 500;
+  padding: 10px;
+}
+.ftr {
+  margin-bottom: 20px;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+}
+
+footer .questions {
+  padding: 34px 0;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-item a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.7);
+  width: fit-content;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.footer .footer-item a:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline blue;
+}
+@media screen and (max-width: 1300px) {
+  nav {
+    max-width: 90vw;
+  }
+  .start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+}
+.first {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+
+.faq h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+footer {
+  max-width: 90vw;
+  padding: 75px 0;
+}
+
+.footer-item {
+  align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .one {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+}
+@media screen and (max-width:600px) {
+  .first .images img {
+    width: 300px;
+  }
+  .first .images video {
+    width: 270px;
+    top: 40px;
+  }
+}

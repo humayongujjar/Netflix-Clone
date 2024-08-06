@@ -200,6 +200,7 @@ body {
 .first .tex :nth-child(1) {
   font-size: 35px;
   font-weight: 900;
+  padding: 10px;
 }
 .first .tex :nth-child(2) {
   font-size: 20px;
@@ -223,9 +224,6 @@ section.first > div :nth-child(1) {
 
 section.first > div :nth-child(2) {
   font-size: 24px;
-}
- h2 {
- 
 }
 #f{
   font-size: 40px;
